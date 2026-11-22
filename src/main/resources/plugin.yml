@@ -1,0 +1,15 @@
+name: ZenoSkills
+version: '${project.version}'
+main: com.zenosmp.skills.ZenoSkillsPlugin
+api-version: '1.21'
+author: Zeno SMP
+description: 10 unique skills (Life and Destruction) for Zeno SMP. Choose once, awaken forever.
+commands:
+  skill:
+    description: Open the skill menu, view your skill or cast it
+    usage: /skill [info|use]
+    aliases: [skills, zeno]
+permissions:
+  zenoskills.admin:
+    description: Reset / set player skills and reload the config
+    default: op
